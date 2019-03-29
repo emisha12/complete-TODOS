@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>To do list</title>
+        <link rel="stylesheet" href="ToDoStyle.css">
+        <script src="bundle.js" defer></script>
+        <script src="./node_modules/mustache/mustache.min.js">
+        </script>
+        </head>
+    <body>
+        <div>
+        <h1 style="text-align: center;color: darkblue; font-size: 70px">To do list...</h1>
+        <div class="add-panel" >
+            <h3 style="text-align: center;color: darkblue">Add an event</h3>
+            <div class="inner-add-panel">
+                <label for="input-todo">Enter event to add into list: </label>
+                <input id="input-todo" type="text" placeholder="Enter event" data-input="inputText">
+                <button class="btn" id="add-todo">Add to list</button>
+            </div>
+        </div></div>
+        <br>
+        <div class="todo-wrapper" id="todo-list-wrapper">
+
+
+        </div>
+        <div class="delete-wrapper">
+            <button id="delete-selected-btn" class="delete-btn">Delete selected events</button>
+            <button id="delete-completed-btn" class="delete-btn">Delete completed events</button>
+        </div>  
+    </body>
+</html>

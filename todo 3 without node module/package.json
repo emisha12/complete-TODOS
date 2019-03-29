@@ -1,0 +1,15 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "To do list project",
+  "main": "./main.js",
+  "scripts": {
+    "dev": "webpack"
+  },
+  "author": "KR",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}

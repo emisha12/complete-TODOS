@@ -1,0 +1,11 @@
+ // var mapValue = toDoManager.listOfToDo.values();
+    //     for(var toDoTimeStamp of mapValue) {
+    //        if(toDoTimeStamp.toDoText === toDoText){
+    //             toDoInput.value = "";
+    //             alert("This already exists in the To Do List. Please enter another event.");
+    //             exists = 1;
+    //             break;
+    //     }else {
+    //         exists = 0;
+    //     }
+    // }
